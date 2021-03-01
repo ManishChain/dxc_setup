@@ -282,7 +282,7 @@ while test $# -gt 0; do
       echo "options:"
       echo "-h, --help      show brief help"
       echo "-i              install new dxc with 'latest' tag, if already installed then it will be removed on approval"
-      echo "-t              install new dxc with TAG as specified by user"
+      echo "-t              install new dxc with TAG as specified by user, if already installed then it will be removed on approval"
       echo "-r              restart dxc, option to change image tag to pull"
       exit 0
       ;;
